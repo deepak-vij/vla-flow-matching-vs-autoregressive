@@ -5,7 +5,7 @@ Two small PyTorch scripts that show, on a toy robot task, how vision-language-ac
 - **Flow matching**, the approach used by π0 / π0.5: start from random noise and refine a whole chunk of actions over 10 passes.
 - **Autoregressive tokens**, the approach used by RT-2 / OpenVLA: round each action value into a bin and write the chunk one token at a time, like an LLM.
 
-This is the companion code for the blog post **How Robot Brains Actually Move: The Nuances of VLA Models Like π0.5** (on Medium; link coming soon).
+This is the companion code for the blog post **[How Robot Brains Actually Move: The Nuances of VLA Models Like π0.5](https://medium.com/@dvij_sj12/how-robot-brains-actually-move-the-nuances-of-vla-models-like-%CF%800-5-9583a9ade56d)** on Medium.
 
 Everything runs on a laptop CPU. No GPU and no model downloads are needed: the models are tiny and trained from scratch on synthetic data. They reproduce the *method* π0.5 uses, not π0.5 itself.
 
